@@ -7,7 +7,16 @@ body {
     font-weight: 300;
     background: #111;
     color: #eee;
-    scroll-snap-type: mandatory;
+}
+
+.wrapper {
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    scroll-snap-type: y mandatory;
 }
 
 .slide {
