@@ -20,6 +20,7 @@ body {
 .legend {
     font-size: 2vw;
     line-height: 1.3em;
+    padding: 1em;
 }
 
 p {
@@ -38,7 +39,6 @@ p {
         position: absolute;
         left: 75vw;
         top: 0;
-        padding: 20px;
     }
 }
 
